@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="queries.css">
 
     <title>Omnifood</title>
   </head>
@@ -22,13 +23,21 @@
       <a href="#">
         <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
       </a>
-      <nav class="main-nav-list">
-        <li><a class="main-nav-link" href="#">How it works</a></li>
-        <li><a class="main-nav-link" href="#">Meals</a></li>
-        <li><a class="main-nav-link" href="#">Testimonials</a></li>
-        <li><a class="main-nav-link" href="#">Pricing</a></li>
-        <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">How it works</a></li>
+          <li><a class="main-nav-link" href="#">Meals</a></li>
+          <li><a class="main-nav-link" href="#">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+        </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -617,7 +626,7 @@
             Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.
           </p>
         </div>
-        <div class="adress-col">
+        <div class="address-col">
           <p class="footer-heading">Contact us</p>
           <address class="contacts">
             <p class="adress">623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
