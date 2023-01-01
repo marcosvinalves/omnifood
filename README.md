@@ -11,4 +11,4 @@
 <li>  </li>
 <li>  </li>
 </ul>
-<h2><a href="#" target="_blank">GO TO PROJECT PAGE<a></h2>
+<h2><a href="https://marcosvinalves.github.io/omnifood/" target="_blank">GO TO PROJECT PAGE<a></h2>
