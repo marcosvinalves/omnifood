@@ -59,6 +59,8 @@ Small: 11px
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  /* NOT WORK ON SAFARI AND EDGE */
+  /* scroll-behavior: smooth; */
 }
 
 * {
