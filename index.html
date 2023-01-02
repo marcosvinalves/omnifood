@@ -79,11 +79,16 @@
             </div>
           </div>
           <div class="hero-img-box">
-            <img
-              src="img/hero.png"
-              class="hero-img"
-              alt="women enjoying food, meals in storage container, and food bowls on a table"
-            />
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" >
+              <source srcset="img/hero-min.png" type="image/png" >
+
+              <img
+                src="img/hero-min.png"
+                class="hero-img"
+                alt="women enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </picture>
           </div>
         </div>
       </section>
@@ -567,10 +572,11 @@
                 first meal is on us!
               </p>
 
-              <form class="cta-form" action="#">
+              <form class="cta-form" name="sign-up" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
+                  name="full-name"
                     id="full-name"
                     type="text"
                     placeholder="John Smith"
@@ -581,6 +587,7 @@
                 <div>
                   <label for="email">Email adress</label>
                   <input
+                  name="email"
                     id="email"
                     type="email"
                     placeholder="me@example.com"
@@ -590,7 +597,7 @@
 
                 <div>
                   <label for="select-where">Where did you hear from us?</label>
-                  <select id="select-where" required>
+                  <select id="select-where" name="select-where" required>
                     <option value="empty">Please choose one option:</option>
                     <option value="friends">Friends and family</option>
                     <option value="youtube">Youtube video</option>
